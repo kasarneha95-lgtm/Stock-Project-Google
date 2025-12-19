@@ -2,6 +2,7 @@
 import streamlit as st  # frontend UI design
 import numpy as np
 import joblib
+import yfinance as yf
 
 model = joblib.load('stock_prediction_google.pkl')
 st.title('Stock Market Prediction')   # main title
