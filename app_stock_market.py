@@ -3,7 +3,7 @@ import streamlit as st  # frontend UI design
 import numpy as np
 import joblib
 
-model = joblib.load('stock_price_15m.pkl')
+model = joblib.load('stock_prediction_google.pkl')
 st.title('Stock Market Prediction')   # main title
 st.write('Enter inputs to predict estimated Stock Closeing price !')  # subtitle
 st.header('Stock Market Predictor')
